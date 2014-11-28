@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["epynonymous@outlook.com"]
   spec.summary       = %q{Generates web configuration files.}
   spec.description   = %q{Generates website configuration files.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/stephenhu/configly"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

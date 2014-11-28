@@ -1,6 +1,7 @@
 # Configly
 
-Automatically generate configuration files for sites.
+Rakefile extension to automatically generate configuration files for
+web sites.
 
 ## Installation
 
