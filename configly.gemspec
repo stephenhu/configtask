@@ -6,8 +6,8 @@ require 'configly/version'
 Gem::Specification.new do |spec|
   spec.name          = "configly"
   spec.version       = Configly::VERSION
-  spec.authors       = ["vmwarechina"]
-  spec.email         = ["hus@vmware.com"]
+  spec.authors       = ["stephenhu"]
+  spec.email         = ["epynonymous@outlook.com"]
   spec.summary       = %q{Generates web configuration files.}
   spec.description   = %q{Generates website configuration files.}
   spec.homepage      = ""
