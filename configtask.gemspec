@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'configly/version'
+require 'configtask/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "configly"
-  spec.version       = Configly::VERSION
+  spec.name          = "configtask"
+  spec.version       = ConfigTask::VERSION
   spec.authors       = ["stephenhu"]
   spec.email         = ["epynonymous@outlook.com"]
   spec.summary       = %q{Generates web configuration files.}
   spec.description   = %q{Generates website configuration files.}
-  spec.homepage      = "https://github.com/stephenhu/configly"
+  spec.homepage      = "https://github.com/stephenhu/configtask"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
